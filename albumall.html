@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1" http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Put your description here.">
+    <link rel="icon" href="favicon.ico">
+    <title>class7</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            background-color:#eee;
+        }
+<!--        .yinying{-->
+<!--            box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,-->
+<!--            rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;-->
+<!--        }-->
+        .flex{
+            display:flex;
+        }
+        .lead{
+            display:flex;
+            padding:30px 20px;
+            border-bottom:1px dashed rgb(190,190,190);
+            font-size:15px;
+            align-items:center;
+            justify-content:center;
+            color:#666;
+        }
+        .column{
+            flex-direction:column;
+        }
+        .flex1{
+            flex:1;
+        }
+        a{
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body class="flex">
+    <!--侧边栏-->
+    <div style="width:200px;z-index:2;">
+        <!--头像栏-->
+        <div style="padding:10px;align-items:center;justify-content:center;border-bottom:1px solid" class="flex">
+            <img src="IMG_1079.JPG"
+                 width="40px"
+                 height="40px"
+            >
+            <div style="margin-left:10px;font-family:KaiTi;font-size:20px;">2021届7班</div>
+        </div>
+        <!--导航栏-->
+        <div class="flex1" style="overflow:auto;">
+            <a href="album.html" class="lead">初一</a>
+            <a href="album2.html" class="lead">初二</a>
+            <a href="album3.html" class="lead">初三</a>
+            <a href="albumdaily.html" class="lead">日常</a>
+            <a href="albumall.html" class="lead">大合照</a>
+            <a href="index.html" class="lead">返回首页</a>
+        </div>
+    </div>
+    <!--主区域-->
+    <div class="flex column flex1">
+        <!--头部-->
+<!--        <div style="height:60px;display:flex;align-items:center;justify-content:center" class="baise yinying">-->
+<!--            <b style="font-family:'楷体',KaiTi,sans-serif;">锦绣织梦，君武远航，七星北斗，共主苍茫。</b>-->
+<!--        </div>-->
+        <!--内容区-->
+        <div style="display:flex;padding:10px;align-items:center;justify-content:center;flex-direction:column">
+            <div>
+                <img style="width:230px;height:345px;" src="DSC07893.jpg">
+                <img style="width:350px;height:230px;" src="36092bdf2e2588c86a11d1e98d6633ef.JPG">
+                <img style="width:350px;height:230px;" src="DSC07286.jpg">
+                <img style="width:390px;height:230px;" src="20240731201440.jpg">
+            </div>
+            <div>
+                <img style="width:350px;height:230px;" src="IMG_0572.JPG">
+                <img style="width:350px;height:230px;" src="IMG_0574.JPG">
+                <img style="width:350px;height:230px;" src="ae319ae672517584e7718970517491bc.jpg">
+                <img style="width:350px;height:230px;" src="2e62d602fd0182dbdd1640b8a126871d.JPG">
+            </div>
+            <div>
+                <img style="width:350px;height:230px;" src="8cb8d6d3b876d0c1a68dcd55ed237cac.JPG">
+                <img style="width:350px;height:230px;" src="34d59c959fcf48ed0cadec85c8af9be4.JPG">
+                <img style="width:350px;height:230px;" src="6ae6dd3dd3d06eae2724a9bd61f77790.JPG">
+                <img style="width:350px;height:230px;" src="DSC07776.jpg">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
